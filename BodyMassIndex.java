@@ -13,13 +13,5 @@ public class BodyMassIndex {
         Index= (weight/(height*height));
         System.out.print("your body mass index is "+Index);
 
-
-
-
-
-
-
-
-
     }
 }
