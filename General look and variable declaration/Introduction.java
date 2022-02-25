@@ -16,6 +16,7 @@ public class İLK {
         int diff=x-y;
         int multiplication=x*y;
         double divide=(double) x/y;
+        System.out.print(divide);
         /*to find the remainder of division,u need to use % */
         int remainder=x%y;
         /*combination float and integer */
