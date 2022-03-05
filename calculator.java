@@ -46,12 +46,17 @@ public class calculator {
                 else if(num2>num1)System.out.println("Process result is "+(num2-num1));
                 break;
             case 3:
-                if(num1>num2)System.out.println("Process result is "+(num1/num2));
-                else if(num2>num1) System.out.println("Process result is "+(num2/num1));
+                if(num1 == 0 || num2 == 0) System.out.println("WARNING!!You cannot divide number to zero");
+                else {
+                    if(num1>num2)System.out.println("Process result is "+(num1/num2));
+                    else if(num2>num1)System.out.println("Process result is "+(num2/num1));
+                }
                 break;
             case 4:
                 System.out.println("Process result is "+(num1*num2));
                 break;
+            default:
+                System.out.println("Try again!!");
         }
     }
 }
