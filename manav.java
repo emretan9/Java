@@ -14,7 +14,6 @@ public class manav {
         kg=inp.nextDouble();
         double elma_fiyat=kg*elma;
         toplam=toplam+elma_fiyat;
-       // System.out.println("toplam para="+toplam);
 
         System.out.println("domates kaç kilo");
         kg=inp.nextDouble();
