@@ -78,5 +78,25 @@ public class Arrays {
            for(int i=0;i<random_numbers.length;i++) {
               copy[i]=random_numbers[i];
             }
+        System.out.println("---------------------------------------------------");
+        
+        
+        
+        //STRING ARRAYS
+        
+         String[] days={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+
+        //Second type of string array declaration
+        String[] teams= new String[]{"Fenerbahce","Galatasaray"};
+        System.out.println(teams.length);
+
+        //How to print array
+        for(int i=0;i<= (days.length-1);i++){
+            System.out.println(days[i]);
+            //Array size is 7 but index number is smaller by 1 than array size.Thats why we use (days.length-1)
+        }
+
+        
+        
     }
 }
