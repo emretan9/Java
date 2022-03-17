@@ -1,6 +1,7 @@
 package ACM321;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
@@ -94,6 +95,30 @@ public class Arrays {
         for(int i=0;i<= (days.length-1);i++){
             System.out.println(days[i]);
             //Array size is 7 but index number is smaller by 1 than array size.Thats why we use (days.length-1)
+        }
+        
+         System.out.println("---------------------------------------------------");
+        
+        
+        //How to get input of array element (IMPORTANT)
+        
+        
+        Scanner inp=new Scanner(System.in);
+
+        int array[];
+        int size;
+
+        System.out.print("Enter size of array: "); //first enter size of array
+        size= inp.nextInt();
+        array= new int[size];
+
+        for(int i=0;i<=size-1;i++){ //It must be -1 because index number always size-1
+            System.out.println("Enter array elements");
+            array[i]= inp.nextInt(); //entering elements of array
+        }
+        System.out.println("Array is:"); 
+        for(int j=0;j<=(array.length-1);j++){ //Then printing array
+            System.out.print(array[j]+"\t");
         }
 
         
