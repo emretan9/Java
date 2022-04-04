@@ -12,7 +12,7 @@ public class filling2DArrayWithStar {
                 if(i==0 || i==2 || i==5) { // put * to rows 0 2 and 5
                     array[i][j] = "*";
                 }
-                else if(j==0 || j==2){ // put * to colum 0 and 2
+                else if(j==0 || j==2){ // put * to column 0 and 2
                     array[i][j]="*";
                 }
                 else{   // other element should empty due to shape of char B
