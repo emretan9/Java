@@ -57,3 +57,16 @@ public class Methods {
     }
 
 }
+/* OUTPUT:
+Hi! what's up emre
+This is test of methods
+First way:25
+Second way is 5^3=125
+Enter a number to see factorial:5
+Result of factorial that you want to see is 120
+-----------------
+ OVERLOADING OUTPUTS:
+String summation equals to emre tanrıkulu
+Summation equals to 6
+Summation equals to 14
+*/
