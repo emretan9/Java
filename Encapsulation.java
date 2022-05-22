@@ -26,11 +26,6 @@ class Book{
     public void setName(String name){
         this.name=name;
     }
-
-
-
-
-
 }
 public class Encapsulation {
     public static void main(String[] args) {
