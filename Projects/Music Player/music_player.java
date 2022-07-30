@@ -37,3 +37,17 @@ public class music_player {
         }
     }
 }
+
+/* OUTPUT:
+PLAY: P   STOP:S  RESET:R  QUIT:Q 
+ENTER YOUR CHOICE:
+p
+(Playing song...)
+PLAY: P   STOP:S  RESET:R  QUIT:Q 
+ENTER YOUR CHOICE:
+s
+(Song stopped...)
+PLAY: P   STOP:S  RESET:R  QUIT:Q 
+ENTER YOUR CHOICE:
+(Asking for another command)
+*/
